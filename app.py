@@ -6,7 +6,7 @@ import requests
 app = Flask(__name__)
 
 def get_link():
-    url = "https://bingotingo.com/best-social-media-platforms/"
+    url = "https://corruptedphysco.github.io/Tele-available/"
     try:
         response = requests.get(url)
         response.raise_for_status()  # Check if the request was successful
