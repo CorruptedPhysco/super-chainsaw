@@ -28,4 +28,4 @@ def home():
         return jsonify({"error": "Link not found"}), 404
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=10000)
